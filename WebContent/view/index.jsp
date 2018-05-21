@@ -206,7 +206,7 @@
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
                         <!-- /.feature title -->
-                        <h2>Top submitted property</h2>
+                        <h2>금주의 추천 상품</h2>
                         <p>Nulla quis dapibus nisl. Suspendisse ultricies commodo arcu nec pretium. Nullam sed arcu ultricies . </p>
                     </div>
                 </div>
@@ -397,12 +397,12 @@
             </div>
         </div>
 
-        <!--TESTIMONIALS -->
+        <!-- <!--TESTIMONIALS -->
         <div class="testimonial-area recent-property" style="background-color: #FCFCFC; padding-bottom: 15px;">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
-                        <!-- /.feature title -->
+                        /.feature title
                         <h2>Our Customers Said  </h2> 
                     </div>
                 </div>
@@ -453,14 +453,14 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <!-- Count area -->
+ <!--        Count area
         <div class="count-area">
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 col-md-offset-1 col-sm-12 text-center page-title">
-                        <!-- /.feature title -->
+                        /.feature title
                         <h2>You can trust Us </h2> 
                     </div>
                 </div>
@@ -517,7 +517,7 @@
                 </div>
             </div>
         </div>
-
+ -->
         <!-- boy-sale area -->
         <div class="boy-sale-area">
             <div class="container">
