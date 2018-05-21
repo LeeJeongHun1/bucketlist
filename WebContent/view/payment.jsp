@@ -51,6 +51,16 @@
         	.mylist > ul > li > a{
         		font-size:18px;
         	}
+        	
+        	.payment {
+        		background-color:#ffffff;
+        	}
+        	.payment div {
+        		text-align:center;
+        	}
+        	table  th{
+        		text-align:center;
+        	}
         </style>
     </head>
     <body>
@@ -70,26 +80,14 @@
                 		<li><a href="myPackage.jsp">나만의 패키지</a></li>
                 	</ul>
                 </div>  
-                <div class="col-md-10">
-	              	<div class="form-group">
-	                   <label for="name">Name</label>
-	                   <input type="text" class="form-control" id="name">
-	                </div>
-	                <div class="form-group">
-		                <label for="email">Email</label>
-		                <input type="text" class="form-control" id="email">
-	                </div>
-	                <div class="form-group">
-		                <label for="password">Password</label>
-		   		        <input type="password" class="form-control" id="password">
-	                </div>
-	                <div class="form-group">
-		                <label for="password">Password check</label>
-		   		        <input type="password" class="form-control" id="password">
-	                </div>
-	                <div class="text-center">
-                    	<button type="submit" class="btn btn-default">회원정보수정</button>
-                    </div>
+                <div class="col-md-10 payment">
+	              <table style=" width:80%">
+					  <tr>
+					    <th colspan="8">패키지</th>
+				   	    <th colspan="2">날짜</th>
+				        <th colspan="2">금액</th>
+				  </tr>
+	              </table>
                 </div>
 
          <script src="assets/js/modernizr-2.6.2.min.js"></script>
