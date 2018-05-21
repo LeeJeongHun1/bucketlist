@@ -219,24 +219,7 @@
                     
                     </li>
                     <li class="dropdown yamm-fw" data-wow-delay="0.4s">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">My Package<b class="caret"></b></a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <div class="yamm-content">
-                                        <div class="row">
-                                            <div class="col-sm-3">
-                                                <h5>Property process</h5>
-                                                <ul> 
-                                                    <li><a href="submit-property.jsp">Submit - step 1</a> </li>
-                                                    <li><a href="submit-property.jsp">Submit - step 2</a> </li>
-                                                    <li><a href="submit-property.jsp">Submit - step 3</a> </li> 
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- /.yamm-content -->
-                                </li>
-                            </ul>
+                            <a href="submit-property.jsp" class="dropdown-toggle">My Package</a>
                         </li>
 
                        <!--  <li class="wow fadeInDown" data-wow-delay="0.5s"><a href="contact.html">Contact</a></li> -->

@@ -24,7 +24,7 @@
         <link rel="stylesheet" href="assets/css/fontello.css">
         <link href="assets/fonts/icon-7-stroke/css/pe-icon-7-stroke.css" rel="stylesheet">
         <link href="assets/fonts/icon-7-stroke/css/helper.css" rel="stylesheet">
-        <link href="css/animate.css" rel="stylesheet" media="screen">
+        <link href="assets/css/animate.css" rel="stylesheet" media="screen">
         <link rel="stylesheet" href="assets/css/bootstrap-select.min.css"> 
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" href="assets/css/icheck.min_all.css">
@@ -36,6 +36,7 @@
         <link rel="stylesheet" href="assets/css/style.css">
         <link rel="stylesheet" href="assets/css/responsive.css">
         
+        <script src="assets/js/modernizr-2.6.2.min.js"></script>
         <script src="assets/js//jquery-1.10.2.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/bootstrap-select.min.js"></script>
@@ -50,6 +51,7 @@
         <script src="assets/js/jquery.validate.min.js"></script>
         <script src="assets/js/wizard.js"></script>
         <script src="assets/js/main.js"></script>
+        
 <sitemesh:write property="head" />
 
 </head>
