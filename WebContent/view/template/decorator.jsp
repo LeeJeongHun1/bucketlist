@@ -37,7 +37,7 @@
         <link rel="stylesheet" href="assets/css/responsive.css">
         
         <script src="assets/js/modernizr-2.6.2.min.js"></script>
-        <script src="assets/js//jquery-1.10.2.min.js"></script>
+        <script src="assets/js/jquery-1.10.2.min.js"></script>
         <script src="bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/js/bootstrap-select.min.js"></script>
         <script src="assets/js/bootstrap-hover-dropdown.js"></script>
