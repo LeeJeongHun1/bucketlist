@@ -18,7 +18,7 @@
                 <div class="collapse navbar-collapse yamm" id="navigation">
                     <div class="button navbar-right">
                         <button class="navbar-btn nav-button wow bounceInRight login" onclick=" window.open('register.jsp')" data-wow-delay="0.45s">Login</button>
-                        <button class="navbar-btn nav-button wow fadeInRight" onclick=" window.open('submit-property.html')" data-wow-delay="0.48s">Submit</button>
+                        <button class="navbar-btn nav-button wow fadeInRight" onclick=" window.open('userUpdate.jsp')" data-wow-delay="0.48s">MyPage</button>
                     </div>
                     <ul class="main-nav nav navbar-nav navbar-right">
                      <!--    <li class="dropdown ymm-sw " data-wow-delay="0.1s">

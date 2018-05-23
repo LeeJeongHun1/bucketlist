@@ -1,5 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -91,7 +92,8 @@
                     	<button type="submit" class="btn btn-default">회원정보수정</button>
                     </div>
                 </div>
-
+		</div>
+</div>
          <script src="assets/js/modernizr-2.6.2.min.js"></script>
 
         <script src="assets/js/jquery-1.10.2.min.js"></script> 

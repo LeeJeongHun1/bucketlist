@@ -1,5 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
+<html>
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -54,11 +55,12 @@
         	
         	.payment {
         		background-color:#ffffff;
+        		margin-left:20px;
         	}
         	.payment div {
         		text-align:center;
         	}
-        	table  th{
+        	table, th{
         		text-align:center;
         	}
         </style>
@@ -80,16 +82,29 @@
                 		<li><a href="myPackage.jsp">나만의 패키지</a></li>
                 	</ul>
                 </div>  
-                <div class="col-md-10 payment">
-	              <table style=" width:80%">
-					  <tr>
-					    <th colspan="8">패키지</th>
-				   	    <th colspan="2">날짜</th>
-				        <th colspan="2">금액</th>
-				  </tr>
-	              </table>
+                <div class="col-md-9 payment">
+	              <table class="table table-hover">
+					  <thead>
+					    <tr>
+					      <th scope="col">No</th>
+					      <th scope="col">패키지</th>
+					      <th scope="col">날짜</th>
+					      <th scope="col">금액</th>
+					      <th scope="col"></th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <th scope="row">1</th>
+					      <td>유렵 축구여행</td>
+					      <td>2018/05/18</td>
+					      <td>2,000,000원</td>
+					    </tr>
+					  </tbody>
+					</table>
                 </div>
-
+			</div>
+	</div>
          <script src="assets/js/modernizr-2.6.2.min.js"></script>
 
         <script src="assets/js/jquery-1.10.2.min.js"></script> 
