@@ -93,15 +93,14 @@
 						<div class="box-two proerty-item">
 							<div class="item-thumb">
 								<a href="property-1.html"><img
-									src="assets/img/demo/property-1.jpg"></a>
+									src="assets/img/demo/ps1.jpg"></a>
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-1.html">Super nice villa </a>
+									<a href="property-1.html">[NO.1 베스트셀러] 서유럽 3/4/5개국 핵심일주 10일</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								<span class="proerty-price pull-right">2,389,000원~</span>
 							</div>
 						</div>
 					</div>
@@ -110,15 +109,15 @@
 						<div class="box-two proerty-item">
 							<div class="item-thumb">
 								<a href="property-2.html"><img
-									src="assets/img/demo/property-2.jpg"></a>
+									src="assets/img/demo/ps2.jpg"></a>
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-2.html">Super nice villa </a>
+									<a href="property-2.html">[쉼표in유럽]오스트리아/체코 2 국 8일~9일 </a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								 <span
+									class="proerty-price pull-right">3,280,200원 ~</span>
 							</div>
 						</div>
 					</div>
@@ -127,16 +126,15 @@
 						<div class="box-two proerty-item">
 							<div class="item-thumb">
 								<a href="property-3.html"><img
-									src="assets/img/demo/property-3.jpg"></a>
+									src="assets/img/demo/ps3.jpg"></a>
 
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-3.html">Super nice villa </a>
+									<a href="property-3.html">[ZEUS]진짜유럽 여행, 리버 크루즈</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								<span class="proerty-price pull-right">10,990,200원 ~</span>
 							</div>
 						</div>
 					</div>
@@ -150,11 +148,10 @@
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-1.html">Super nice villa </a>
+									<a href="property-1.html">[EMP363] 스페인 일주 7~9일</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								<span class="proerty-price pull-right">1,890,000원~</span>
 							</div>
 						</div>
 					</div>
@@ -170,15 +167,14 @@
 						<div class="box-two proerty-item">
 							<div class="item-thumb">
 								<a href="property-1.html"><img
-									src="assets/img/demo/property-1.jpg"></a>
+									src="assets/img/demo/ps4.jpg"></a>
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-1.html">Super nice villa </a>
+									<a href="property-1.html">[카오락] 나만 알고 싶은 휴양지♡</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								<span class="proerty-price pull-right">968,400원 ~</span>
 							</div>
 						</div>
 					</div>
@@ -187,15 +183,14 @@
 						<div class="box-two proerty-item">
 							<div class="item-thumb">
 								<a href="property-2.html"><img
-									src="assets/img/demo/property-2.jpg"></a>
+									src="assets/img/demo/ps5.jpg"></a>
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-2.html">Super nice villa </a>
+									<a href="property-2.html">[ADPZ03] 발리 [6성급 THE 물리아]</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								<span class="proerty-price pull-right">2,995,000원 ~</span>
 							</div>
 						</div>
 					</div>
@@ -204,16 +199,15 @@
 						<div class="box-two proerty-item">
 							<div class="item-thumb">
 								<a href="property-3.html"><img
-									src="assets/img/demo/property-3.jpg"></a>
+									src="assets/img/demo/ps6.jpg"></a>
 
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-3.html">Super nice villa </a>
+									<a href="property-3.html">[태국왕실의 휴양지] 후아힌 허니문 </a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								<span class="proerty-price pull-right">1,584,600원 ~</span>
 							</div>
 						</div>
 					</div>
@@ -227,11 +221,10 @@
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-1.html">Super nice villa </a>
+									<a href="property-1.html">◆스리랑카 + 인도 [레(라다크)] 또는 인도 [남부]</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								<span class="proerty-price pull-right">2,351,600원 ~</span>
 							</div>
 						</div>
 					</div>
@@ -247,32 +240,30 @@
 						<div class="box-two proerty-item">
 							<div class="item-thumb">
 								<a href="property-1.html"><img
-									src="assets/img/demo/property-1.jpg"></a>
+									src="assets/img/demo/ps8.jpg"></a>
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-1.html">Super nice villa </a>
+									<a href="property-1.html">챔피언스리그 패키지</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								<span class="proerty-price pull-right">2,000,000원~</span>
 							</div>
 						</div>
 					</div>
-
+					
 					<div class="col-sm-6 col-md-3 p0">
 						<div class="box-two proerty-item">
 							<div class="item-thumb">
 								<a href="property-2.html"><img
-									src="assets/img/demo/property-2.jpg"></a>
+									src="assets/img/demo/ps7.jpg"></a>
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-2.html">Super nice villa </a>
+									<a href="property-2.html">세리에A 패키지</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								<span class="proerty-price pull-right">1,750,000원</span>
 							</div>
 						</div>
 					</div>
@@ -281,16 +272,15 @@
 						<div class="box-two proerty-item">
 							<div class="item-thumb">
 								<a href="property-3.html"><img
-									src="assets/img/demo/property-3.jpg"></a>
+									src="assets/img/demo/ps9.jpg"></a>
 
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-3.html">Super nice villa </a>
+									<a href="property-3.html">프리메라리가 패키지</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								<span class="proerty-price pull-right">2,560,000원~</span>
 							</div>
 						</div>
 					</div>
@@ -299,16 +289,15 @@
 						<div class="box-two proerty-item">
 							<div class="item-thumb">
 								<a href="property-1.html"><img
-									src="assets/img/demo/property-4.jpg"></a>
+									src="assets/img/demo/ps10.png"></a>
 
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-1.html">Super nice villa </a>
+									<a href="property-1.html">분데스리가 패키지</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="pull-left"><b>Area :</b> 120m </span> <span
-									class="proerty-price pull-right">$ 300,000</span>
+								<span class="proerty-price pull-right">1,680,000원~</span>
 							</div>
 						</div>
 					</div>

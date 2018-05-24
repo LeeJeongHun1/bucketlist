@@ -91,15 +91,50 @@
 					      <th scope="col">패키지</th>
 					      <th scope="col">날짜</th>
 					      <th scope="col">금액</th>
+					      <th scope="col">승인여부</th>
 					      <th scope="col"></th>
 					    </tr>
 					  </thead>
 					  <tbody>
 					    <tr>
 					      <th scope="row">1</th>
-					      <td>유렵 축구여행</td>
-					      <td>2018/05/18</td>
+					      <td>챔피언스리그 축구여행</td>
+					      <td>2017/03/28</td>
 					      <td>2,000,000원</td>
+					      <td>대기중</td>
+					      <td>
+					      	<button>수정</button>
+					      	<button>삭제</button>
+					      </td>
+					    </tr>
+					    <tr>
+					      <th scope="row">2</th>
+					      <td>프리미어리그 축구여행</td>
+					      <td>2018/02/12</td>
+					      <td>2,000,000원</td>
+					      <td>심사중</td>
+					      <td>
+					      	<button>수정</button>
+					      	<button>삭제</button>
+					      </td>
+					    </tr>
+					    <tr>
+					      <th scope="row">3</th>
+					      <td>세리에A 축구여행</td>
+					      <td>2018/05/08</td>
+					      <td>2,000,000원</td>
+					      <td>확정</td>
+					      <td>
+					      	<button>수정</button>
+					      	<button>삭제</button>
+					      </td>
+					    </tr>
+					    <tr>
+					      <th scope="row">4</th>
+					      <td>분데스리가 축구여행</td>
+					      <td>2018/06/18</td>
+					      <td>2,000,000원</td>
+					      <td>대기중</td>
 					      <td>
 					      	<button>수정</button>
 					      	<button>삭제</button>
