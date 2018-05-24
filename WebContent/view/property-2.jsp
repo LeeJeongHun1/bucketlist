@@ -382,7 +382,7 @@
 								<div class="inner-wrapper">
 									<div class="single-property-header">
 										<h1 class="property-title">홍콩 3일◈ 얌차식/소호거리/빅토리아피크 ◈</h1>
-										<span class="property-price">$825,000</span>
+										
 									</div>
 									<div class="dealer-section-space">
 										상품코드<span
@@ -422,239 +422,47 @@
 									</tr>
 								</table>
 							</div>
-							<div class="panel-heading">
-								<h3 class="panel-title" style="margin-bottom: 10px;">총 상품가격</h3>
+						
+									<div class="panel-heading">
+								<h3 class="panel-title" style="margin-bottom: 10px;">총 인원수</h3>
 								<table style="width: 350px;">
 									<tr>
 										<th>성인</th>
-										<td style="">969,000원</td>
-									</tr>
-									<tr>
+										<td>
+										<select>
+										<c:forEach var="i" begin="1" end="30">
+										<option>${i}</option>
+										</c:forEach>
+										</select>
+										</td>
 										<th>아동</th>
-										<td>390,000원</td>
-									</tr>
-									<tr>
+										<td>
+										<select>
+										<c:forEach var="i" begin="1" end="30">
+										<option>${i}</option>
+										</c:forEach>
+										</select>
+										</td>
 										<th>유아</th>
-										<td>150,000원</td>
+										<td>
+										<select>
+										<c:forEach var="i" begin="1" end="30">
+										<option>${i}</option>
+										</c:forEach>
+										</select>
+										</td>
 									</tr>
+									
 								</table>
 							</div>
-							
-							
-							
-							<div
-								class="panel panel-default sidebar-menu wow fadeInRight animated">
-
-								<div class="panel-body search-widget">
-									<form action="" class=" form-inline">
-										<fieldset>
-											<div class="row">
-												<div class="col-xs-12">
-													<input type="text" class="form-control"
-														placeholder="Key word">
-												</div>
-											</div>
-										</fieldset>
-
-										<fieldset>
-											<div class="row">
-												<div class="col-xs-6">
-
-													<div
-														class="btn-group bootstrap-select show-tick form-control">
-														<button type="button"
-															class="btn dropdown-toggle btn-default"
-															data-toggle="dropdown" data-id="basic" title="-Status-">
-															<span class="filter-option pull-left"> -Status- </span>&nbsp;<span
-																class="bs-caret"><span class="caret"></span></span>
-														</button>
-														<div class="dropdown-menu open">
-															<ul class="dropdown-menu inner" role="menu">
-																<li data-original-index="0" class="selected"><a
-																	tabindex="0" class="" style="" data-tokens="null"><span
-																		class="text"> -Status- </span><span
-																		class="glyphicon glyphicon-ok check-mark"></span></a></li>
-																<li data-original-index="1"><a tabindex="0"
-																	class="" style="" data-tokens="null"><span
-																		class="text">Rent </span><span
-																		class="glyphicon glyphicon-ok check-mark"></span></a></li>
-																<li data-original-index="2"><a tabindex="0"
-																	class="" style="" data-tokens="null"><span
-																		class="text">Boy</span><span
-																		class="glyphicon glyphicon-ok check-mark"></span></a></li>
-																<li data-original-index="3"><a tabindex="0"
-																	class="" style="" data-tokens="null"><span
-																		class="text">used</span><span
-																		class="glyphicon glyphicon-ok check-mark"></span></a></li>
-															</ul>
-														</div>
-														<select id="basic"
-															class="selectpicker show-tick form-control"
-															tabindex="-98">
-															<option>-Status-</option>
-															<option>Rent</option>
-															<option>Boy</option>
-															<option>used</option>
-
-														</select>
-													</div>
-												</div>
-												<div class="col-xs-6">
-
-													<select id="basic"
-														class="selectpicker show-tick form-control">
-														<option>-Status-</option>
-														<option>Rent</option>
-														<option>Boy</option>
-														<option>used</option>
-
-													</select>
-												</div>
-											</div>
-										</fieldset>
-
-										<fieldset class="padding-5">
-											<div class="row">
-												<div class="col-xs-6">
-													<label for="price-range">Price range ($):</label> <input
-														type="text" class="span2" value="" data-slider-min="0"
-														data-slider-max="600" data-slider-step="5"
-														data-slider-value="[0,450]" id="price-range"><br />
-													<b class="pull-left color">2000$</b> <b
-														class="pull-right color">100000$</b>
-												</div>
-												<div class="col-xs-6">
-													<label for="property-geo">Property geo (m2) :</label> <input
-														type="text" class="span2" value="" data-slider-min="0"
-														data-slider-max="600" data-slider-step="5"
-														data-slider-value="[50,450]" id="property-geo"><br />
-													<b class="pull-left color">40m</b> <b
-														class="pull-right color">12000m</b>
-												</div>
-											</div>
-										</fieldset>
-
-										<fieldset class="padding-5">
-											<div class="row">
-												<div class="col-xs-6">
-													<label for="price-range">Min baths :</label> <input
-														type="text" class="span2" value="" data-slider-min="0"
-														data-slider-max="600" data-slider-step="5"
-														data-slider-value="[250,450]" id="min-baths"><br />
-													<b class="pull-left color">1</b> <b
-														class="pull-right color">120</b>
-												</div>
-
-												<div class="col-xs-6">
-													<label for="property-geo">Min bed :</label> <input
-														type="text" class="span2" value="" data-slider-min="0"
-														data-slider-max="600" data-slider-step="5"
-														data-slider-value="[250,450]" id="min-bed"><br />
-													<b class="pull-left color">1</b> <b
-														class="pull-right color">120</b>
-
-												</div>
-											</div>
-										</fieldset>
-
-										<fieldset class="padding-5">
-											<div class="row">
-												<div class="col-xs-6">
-													<div class="checkbox">
-														<label> <input type="checkbox" checked>
-															Fire Place
-														</label>
-													</div>
-												</div>
-
-												<div class="col-xs-6">
-													<div class="checkbox">
-														<label> <input type="checkbox"> Dual Sinks
-														</label>
-													</div>
-												</div>
-											</div>
-										</fieldset>
-
-										<fieldset class="padding-5">
-											<div class="row">
-												<div class="col-xs-6">
-													<div class="checkbox">
-														<label> <input type="checkbox" checked>
-															Swimming Pool
-														</label>
-													</div>
-												</div>
-												<div class="col-xs-6">
-													<div class="checkbox">
-														<label> <input type="checkbox" checked> 2
-															Stories
-														</label>
-													</div>
-												</div>
-											</div>
-										</fieldset>
-
-										<fieldset class="padding-5">
-											<div class="row">
-												<div class="col-xs-6">
-													<div class="checkbox">
-														<label><input type="checkbox"> Laundry
-															Room </label>
-													</div>
-												</div>
-												<div class="col-xs-6">
-													<div class="checkbox">
-														<label> <input type="checkbox"> Emergency
-															Exit
-														</label>
-													</div>
-												</div>
-											</div>
-										</fieldset>
-
-										<fieldset class="padding-5">
-											<div class="row">
-												<div class="col-xs-6">
-													<div class="checkbox">
-														<label> <input type="checkbox" checked>
-															Jog Path
-														</label>
-													</div>
-												</div>
-												<div class="col-xs-6">
-													<div class="checkbox">
-														<label> <input type="checkbox"> 26'
-															Ceilings
-														</label>
-													</div>
-												</div>
-											</div>
-										</fieldset>
-
-										<fieldset class="padding-5">
-											<div class="row">
-												<div class="col-xs-12">
-													<div class="checkbox">
-														<label> <input type="checkbox"> Hurricane
-															Shutters
-														</label>
-													</div>
-												</div>
-											</div>
-										</fieldset>
-
-										<fieldset>
-											<div class="row">
-												<div class="col-xs-12">
-													<input class="button btn largesearch-btn" value="Search"
-														type="submit">
-												</div>
-											</div>
-										</fieldset>
-									</form>
-								</div>
+									<div class="panel-heading">
+								<h3 class="panel-title" style="margin-bottom: 10px;">총 예정금액</h3>
+								<h4 style="border:none; display:block;">1000000원</h4>
+								<button class="navbar-btn nav-button wow fadeInRight animated animated" style="display:block;">결제하기</button>
 							</div>
+							
+							
+							
 					</aside>
 				</div>
 
