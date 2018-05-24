@@ -43,7 +43,7 @@
                     <li class="dropdown yamm-fw" data-wow-delay="0.4s">
                      <div class="search-form wow pulse" data-wow-delay="0.8s">
 
-                            <form action="" class=" form-inline">
+                            <form action="${pageContext.request.contextPath}/view/properties.jsp" class=" form-inline">
                              <!--    <button class="btn  toggle-btn" type="button"><i class="fa fa-bars"></i></button> -->
 
                                 <div class="form-group" style="width:550px;">
