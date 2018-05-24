@@ -85,7 +85,7 @@
                 <form class="form-horizontal">
 				<div class="col-md-10">
 					<div class="col-md-2">
-						<select class="form-control">
+						검색:<select class="form-control" style="display:inline-block; width: 70%">
 							<option>이름</option>
 							<option>아이디</option>
 						</select>
@@ -93,21 +93,16 @@
 					<div class="col-md-3">
 						<input type="text" class="form-control">
 					</div>
-					<div class="col-md-1">
-						<input type="text" class="form-control">
-					</div>
-					<div class="col-md-1">
-						<input type="text" class="form-control">
-					</div>
+					
 				</div>
 			    &nbsp;
 				<!-- 한줄 시작 -->
 				<div class="col-md-10">
 					<div class="col-md-3">
-						<input type="date" class="form-control">
+						조회기간:<input type="date" class="form-control" style="display:inline-block; width: 70%">
 					</div>
 					<div class="col-md-3">
-						<input type="date" class="form-control">
+						<input type="date" class="form-control" style="width:70%">
 					</div>
 				</div>
 
@@ -116,18 +111,22 @@
                 </div>
                 
                 </form>
-              
+                <!-- 총결제금액/총결제회수 -->
+                <div class="col-md-10" align="right">
+                <table >
+                <tr><th>총 결제금액:</th><td>192837원</td></tr>
+                <tr><th>총 결제회수:</th><td>29회</td></tr>
+                </table>
+                </div>
                 <!-- 테이블 시작 -->
-                <div class="col-md-10">
+          <div class="col-md-10">
           <table class="table">
             <thead>
               <tr>
                 <th>#</th>
-                <th>이름</th>
-                <th>가입일</th>
-                <th>나이</th>
-                <th>결제내역</th>
-                <th>내가 만든 패키지</th>
+                <th>패키지명</th>
+                <th>결제일자</th>
+                <th>가격</th>
               </tr>
             </thead>
             <tbody>
@@ -136,22 +135,16 @@
                 <td>Mark</td>
                 <td>Otto</td>
                 <td>Otto</td>
-                <td>Otto</td>
-                <td>Otto</td>
               </tr>
               <tr>
                 <td>2</td>
                 <td>Jacob</td>
                 <td>Thornton</td>
                 <td>Thornton</td>
-                <td>Thornton</td>
-                <td>Thornton</td>
               </tr>
               <tr>
                 <td>3</td>
                 <td>Larry</td>
-                <td>the Bird</td>
-                <td>the Bird</td>
                 <td>the Bird</td>
                 <td>the Bird</td>
               </tr>

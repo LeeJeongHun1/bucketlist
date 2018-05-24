@@ -84,24 +84,26 @@
                 <!-- form 태그 시작 -->
                 <form class="form-horizontal">
 				<div class="col-md-10">
-			     	<div class="col-md-7">
-					관광<input type="checkbox" class="form-control">
-					축구<input type="checkbox" class="form-control">
-					휴양지<input type="checkbox" class="form-control">
+				<div class="col-md-1">테마</div>
+			     	<div class="col-md-6">
+					<input type="checkbox" class="form-control">관광
+					<input type="checkbox" class="form-control">축구
+					<input type="checkbox" class="form-control">휴양지
 					</div>
 					<div class="col-md-3">
-					제목:<input type="text" class="form-control">
+					제목:<input type="text" class="form-control" style="display: inline-block; width:80%">
 					</div>
                 </div>
                 &nbsp;
                 <!-- 다음줄 -->
                 <div class="col-md-10">
-                <div class="col-md-7">
-                <input type="checkbox" class="form-control">
-				<input type="checkbox" class="form-control">
+                <div class="col-md-1">승인</div>
+                <div class="col-md-6">
+                <input type="checkbox" class="form-control">대기중
+				<input type="checkbox" class="form-control">승인완료
                 </div>
                 <div class="col-md-3">
-                <input type="text" class="form-control">
+                                    가격:<input type="text" class="form-control" style="display: inline-block; width:80%">
                 </div>
                 </div>
                 &nbsp;
@@ -110,10 +112,10 @@
                  <div class="col-md-4">
                  </div>
                  <div class="col-md-3">
-						<input type="date" class="form-control">
+						등록일:<input type="date" class="form-control" style="display: inline-block; width:70%">
 					</div>
 					<div class="col-md-3">
-						<input type="date" class="form-control">
+						~<input type="date" class="form-control" style="display: inline-block; width:80%">
 					</div>
                  </div>
                

@@ -85,29 +85,32 @@
                 <form class="form-horizontal">
 				<div class="col-md-10">
 					<div class="col-md-2">
-						<select class="form-control">
+						검색:<select class="form-control" style="display:inline-block; width: 70%;">
 							<option>이름</option>
 							<option>아이디</option>
 						</select>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-2">
 						<input type="text" class="form-control">
 					</div>
-					<div class="col-md-1">
-						<input type="text" class="form-control">
+					<div class="col-md-2">
+					나이:<input type="text" class="form-control" style="display: inline-block; width: 50%;">
 					</div>
-					<div class="col-md-1">
-						<input type="text" class="form-control">
+					<div class="col-md-2">
+						<input type="text" class="form-control" style="display: inline-block; width: 50%;" >
 					</div>
 				</div>
 			    &nbsp;
 				<!-- 한줄 시작 -->
 				<div class="col-md-10">
 					<div class="col-md-3">
-						<input type="date" class="form-control">
+						가입일:<input type="date" class="form-control" style="display:inline-block; width: 70%">
 					</div>
 					<div class="col-md-3">
-						<input type="date" class="form-control">
+						<input type="date" class="form-control" style="width: 80%">
+					</div>
+					<div class="col-md-4">
+					
 					</div>
 				</div>
 
