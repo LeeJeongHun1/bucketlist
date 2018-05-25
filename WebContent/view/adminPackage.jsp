@@ -106,7 +106,7 @@
                                     가격:<input type="text" class="form-control" style="display: inline-block; width:80%">
                 </div>
                 </div>
-                &nbsp;
+                <div class="col-md-10">&nbsp;</div>
                 <!-- 다음줄 -->
                  <div class="col-md-10">
                  <div class="col-md-4">
@@ -118,7 +118,6 @@
 						~<input type="date" class="form-control" style="display: inline-block; width:80%">
 					</div>
                  </div>
-               
                 <!-- 버튼 -->
                 <div class="col-md-10">
                 <button class="navbar-btn nav-button wow fadeInRight animated" onclick="" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">검색</button>
