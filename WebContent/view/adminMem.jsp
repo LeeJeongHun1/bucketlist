@@ -66,9 +66,10 @@
 
                 <div class="col-md-2 mylist">
                 	<ul>
-                		<li><a href="">회원관리</a></li>
-                		<li><a href="adminPackage.jsp">패키지관리</a></li>
+                		<li><a href="">회원조회</a></li>
+                		<li><a href="adminMemPackage.jsp">회원 패키지관리</a></li>
                 		<li><a href="adminPaid.jsp">결제내역조회</a></li>
+                		<li><a href="adminMemPackage.jsp">관리자 패키지관리</a></li>
                 	</ul>
                 </div>  
                 
@@ -77,7 +78,7 @@
                 <div class="col-md-10">
                  <div class="panel panel-default sidebar-menu wow fadeInRight animated" >
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">회원관리</h3>
+                                    <h3 class="panel-title">회원조회</h3>
                                 </div>
                 </div>
                 </div>
@@ -87,7 +88,7 @@
 					<div class="col-md-2">
 						검색:<select class="form-control" style="display:inline-block; width: 70%;">
 							<option>이름</option>
-							<option>아이디</option>
+							<option>이메일</option>
 						</select>
 					</div>
 					<div class="col-md-2">
@@ -114,8 +115,8 @@
 					</div>
 				</div>
 
-				<div class="col-md-10">
-                <button class="navbar-btn nav-button wow fadeInRight animated" onclick="" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">검색</button>
+				<div class="col-md-10" style="margin-top: 20px;">
+                <button class="navbar-btn nav-button wow fadeInRight animated" onclick="" data-wow-delay="0.5s" style="width:100%; visibility: visible; animation-delay: 0.5s; animation-name: fadeInRight;">검색</button>
                 </div>
                 
                 </form>
