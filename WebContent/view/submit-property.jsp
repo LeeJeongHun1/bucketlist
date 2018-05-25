@@ -1,6 +1,6 @@
 <%@ page contentType="text/html; charset=UTF-8" %>
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" >
 <head>
         <meta charset="utf-8">
         <title>GARO ESTATE | Properties  page</title>
