@@ -97,7 +97,7 @@
                 &nbsp;
                 <!-- 다음줄 -->
                 <div class="col-md-10">
-                <div class="col-md-1">승인</div>
+                <div class="col-md-1">상태</div>
                 <div class="col-md-6">
                 <input type="checkbox" class="form-control">대기중
 				<input type="checkbox" class="form-control">승인완료
