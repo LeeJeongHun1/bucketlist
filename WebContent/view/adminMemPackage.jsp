@@ -67,9 +67,10 @@
                 <div class="col-md-2 mylist">
                 	<ul>
                 		<li><a href="adminMem.jsp">회원관리</a></li>
-                		<li><a href="adminMempackage">회원 패키지관리</a></li>
+                		<li><a href="">회원 패키지관리</a></li>
                 		<li><a href="adminPaid.jsp">결제내역조회</a></li>
-                		<li><a href="">관리자 패키지관리</a></li>
+                		<li><a href="adminPackage">관리자 패키지관리</a></li>
+                		
                 	</ul>
                 </div>  
                 
@@ -78,7 +79,7 @@
                 <div class="col-md-10">
                  <div class="panel panel-default sidebar-menu wow fadeInRight animated" >
                                 <div class="panel-heading">
-                                    <h3 class="panel-title">관리자 패키지관리</h3>
+                                    <h3 class="panel-title">회원 패키지관리</h3>
                                 </div>
                 </div>
                 </div>
@@ -98,8 +99,10 @@
                 &nbsp;
                 <!-- 다음줄 -->
                 <div class="col-md-10">
-                <div class="col-md-1"></div>
+                <div class="col-md-1">상태</div>
                 <div class="col-md-6">
+                <input type="checkbox" class="form-control">대기중
+				<input type="checkbox" class="form-control">승인완료
                 </div>
                 <div class="col-md-3">
                                     가격:<input type="text" class="form-control" style="display: inline-block; width:80%">
@@ -114,7 +117,7 @@
 						등록일:<input type="date" class="form-control" style="display: inline-block; width:70%">
 					</div>
 					<div class="col-md-3">
-						~<input type="date" class="form-control" style="margin-left:10px;	 display: inline-block; width:80%">
+						~<input type="date" class="form-control" style="display: inline-block; width:80%">
 					</div>
                  </div>
                 <!-- 버튼 -->
@@ -135,7 +138,7 @@
                 <th>가격</th>
                 <th>등록일</th>
                 <th>상태</th>
-                <th>수정/삭제</th>
+                <th>승인/삭제</th>
               </tr>
             </thead>
             <tbody>
