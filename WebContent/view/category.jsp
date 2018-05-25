@@ -57,15 +57,10 @@
 .mylist>ul>li>a {
 	font-size: 18px;
 }
-.cName > ul > li:first-child {
-	width:100px; float:left;
-}
-.cName > ul > li:last-child {
-	width:120px;
-}
-.cName > ul > li{
-	list-style:none;
-	clear:both;
+
+.bbb{
+	text-align:right;
+	margin-top:30px;
 }
 </style>
 </head>
@@ -78,16 +73,14 @@
 	<!-- register-area -->
 	<div class="register-area" style="background-color: rgb(249, 249, 249);">
 		<div class="container">
-		 <div class="cName">
-			 <ul>
-				 <li><h2 style="display:inline-block;">관광</h2></li>
-				 <li>
+			<div class="row">
+				 <div class="col-md-12">
+				 <div class="col-xs-2"><h2>관광</h2></div>
+				 <div class="col-xs-10 bbb">
 				 	<button>추천순</button>
 				 	<button>인기순</button>
-				 </li>
-			 </ul>
-		 </div>
-			<div class="row">
+				 </div>
+				</div>
 				<div class="proerty-th">
 					<div class="col-sm-6 col-md-3 p0">
 						<div class="box-two proerty-item">
@@ -131,10 +124,10 @@
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-3.html">[ZEUS]진짜유럽 여행, 리버 크루즈</a>
+									<a href="property-3.html">[스테디셀러] 서유럽 3/4/5개국 핵심일주 9일</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="proerty-price pull-right">10,990,200원 ~</span>
+								<span class="proerty-price pull-right">2,706,600원~</span>
 							</div>
 						</div>
 					</div>
@@ -148,20 +141,23 @@
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-1.html">[EMP363] 스페인 일주 7~9일</a>
+									<a href="property-1.html">[NO.1 베스트셀러] 서유럽 3/4/5개국 핵심일주 10일</a>
 								</h5>
 								<div class="dot-hr"></div>
-								<span class="proerty-price pull-right">1,890,000원~</span>
+								<span class="proerty-price pull-right">2,408,800원~</span>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			
-			 <h2>휴양지</h2>
-			 <button>추천순</button>
-			 <button>인기순</button>
 			<div class="row">
+				<div class="col-md-12">
+				 <div class="col-xs-2"><h2>휴양지</h2></div>
+				 <div class="col-xs-10 bbb">
+				 	<button>추천순</button>
+				 	<button>인기순</button>
+				 </div>
+				</div>
 				<div class="proerty-th">
 					<div class="col-sm-6 col-md-3 p0">
 						<div class="box-two proerty-item">
@@ -231,10 +227,14 @@
 				</div>
 			</div>
 			
-			 <h2>축구</h2>
-			 <button>추천순</button>
-			 <button>인기순</button>
 			<div class="row">
+			<div class="col-md-12">
+				 <div class="col-xs-2"><h2>축구</h2></div>
+				 <div class="col-xs-10 bbb">
+				 	<button>추천순</button>
+				 	<button>인기순</button>
+				 </div>
+				</div>
 				<div class="proerty-th">
 					<div class="col-sm-6 col-md-3 p0">
 						<div class="box-two proerty-item">
@@ -260,7 +260,7 @@
 							</div>
 							<div class="item-entry overflow">
 								<h5>
-									<a href="property-2.html">세리에A 패키지</a>
+									<a href="property-2.html">프리미어리그 패키지</a>
 								</h5>
 								<div class="dot-hr"></div>
 								<span class="proerty-price pull-right">1,750,000원</span>
