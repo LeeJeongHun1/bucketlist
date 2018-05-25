@@ -16,6 +16,29 @@
         		float: left;
         		width: 120px;
         	}
+        	li.roomType{
+        		width: 500px;
+        		float: left;
+        	}
+        	ul.room{
+        		width: 1000px;
+        		text-align: center;
+        	}
+        	li.ok{
+        		width: 200px;
+        		float: left;
+        	}
+        	ul.detail{
+        		position: relative;
+				overflow: hidden;
+				background-color: #f7f7f7;
+				border-top: 1px solid #acb4bf;
+				width: 1000px;
+				color: #8390a3;
+        	}
+        	ul.detail > li {
+        		text-align: center;
+        	}
         	div.airlist {
         		overflow: auto;
         		height: 234px;
@@ -24,6 +47,13 @@
         		font-size: 15px;
         		font-weight: bold;
         		text-align: center;
+        	}
+        	.detailpop{
+        		
+        	}
+        	.bold {
+        		font-weight: bold;
+        		color: black;
         	}
         </style>
 </head>
@@ -48,8 +78,8 @@
                             <form action="#" method="" id="mm">                        
                                 <div class="wizard-header">
                                     <h3>
-                                        <b>Submit</b> YOUR PROPERTY <br>
-                                        <small>Lorem ipsum dolor sit amet, consectetur adipisicing.</small>
+                                        <b>My package</b> YOUR PROPERTY <br>
+                                        <small>나만의 패키지를 만들어 여행을 떠나세요.</small>
                                     </h3>
                                 </div>
                                 <ul>
@@ -137,27 +167,27 @@
 		                                        	</div>
 		                                        	<div class="airlist">
 		                                        		<ul>
-		                                        			<li class="tab"><span>항공권</span></li>
-		                                        			<li class="tab"><span>여정시간</span></li>
-		                                        			<li class="tab"><span>잔여석</span></li>
-		                                        			<li class="tab"><span>요금</span></li>
-		                                        			<li class="tab"><span>예약상태</span></li>
+		                                        			<li class="tab"><span>진에어</span></li>
+		                                        			<li class="tab"><span>06:05 - 07:20</span></li>
+		                                        			<li class="tab"><span>할인석 0석</span></li>
+		                                        			<li class="tab"><span>58,300원</span></li>
+		                                        			<li class="tab"><span>예약불가</span></li>
+		                                        			<li><div class="col-sm-4"><input type="radio" name="aa" disabled class="aaa"/></div></li>
+		                                        		</ul>
+		                                        		<ul>
+		                                        			<li class="tab"><span>티웨이 항공</span></li>
+		                                        			<li class="tab"><span>06:40 - 07:50</span></li>
+		                                        			<li class="tab"><span>일반석 14석</span></li>
+		                                        			<li class="tab"><span>41,300원</span></li>
+		                                        			<li class="tab"><span>예약가능</span></li>
 		                                        			<li><div class="col-sm-4"><input type="radio" name="aa" class="aaa"/></div></li>
 		                                        		</ul>
 		                                        		<ul>
-		                                        			<li class="tab"><span>항공권</span></li>
-		                                        			<li class="tab"><span>여정시간</span></li>
-		                                        			<li class="tab"><span>잔여석</span></li>
-		                                        			<li class="tab"><span>요금</span></li>
-		                                        			<li class="tab"><span>예약상태</span></li>
-		                                        			<li><div class="col-sm-4"><input type="radio" name="aa" class="aaa"/></div></li>
-		                                        		</ul>
-		                                        		<ul>
-		                                        			<li class="tab"><span>항공권</span></li>
-		                                        			<li class="tab"><span>여정시간</span></li>
-		                                        			<li class="tab"><span>잔여석</span></li>
-		                                        			<li class="tab"><span>요금</span></li>
-		                                        			<li class="tab"><span>예약상태</span></li>
+		                                        			<li class="tab"><span>아시아나</span></li>
+		                                        			<li class="tab"><span>14:00 - 15:10</span></li>
+		                                        			<li class="tab"><span>특가석 6석</span></li>
+		                                        			<li class="tab"><span>98,400원</span></li>
+		                                        			<li class="tab"><span>예약가능</span></li>
 		                                        			<li><div class="col-sm-4"><input type="radio" name="aa" class="aaa"/></div></li>
 		                                        		</ul>
 		                                        		<ul>
@@ -287,27 +317,27 @@
 		                                        	</div>
 		                                        	<div class="airlist">
 		                                        		<ul>
-		                                        			<li class="tab"><span>항공권</span></li>
-		                                        			<li class="tab"><span>여정시간</span></li>
-		                                        			<li class="tab"><span>잔여석</span></li>
-		                                        			<li class="tab"><span>요금</span></li>
-		                                        			<li class="tab"><span>예약상태</span></li>
+		                                        			<li class="tab"><span>진에어</span></li>
+		                                        			<li class="tab"><span>06:05 - 07:20</span></li>
+		                                        			<li class="tab"><span>할인석 0석</span></li>
+		                                        			<li class="tab"><span>58,300원</span></li>
+		                                        			<li class="tab"><span>예약불가</span></li>
+		                                        			<li><div class="col-sm-4"><input type="radio" name="bb" disabled class="aaa"/></div></li>
+		                                        		</ul>
+		                                        		<ul>
+		                                        			<li class="tab"><span>티웨이 항공</span></li>
+		                                        			<li class="tab"><span>06:40 - 07:50</span></li>
+		                                        			<li class="tab"><span>일반석 14석</span></li>
+		                                        			<li class="tab"><span>41,300원</span></li>
+		                                        			<li class="tab"><span>예약가능</span></li>
 		                                        			<li><div class="col-sm-4"><input type="radio" name="bb" class="aaa"/></div></li>
 		                                        		</ul>
 		                                        		<ul>
-		                                        			<li class="tab"><span>항공권</span></li>
-		                                        			<li class="tab"><span>여정시간</span></li>
-		                                        			<li class="tab"><span>잔여석</span></li>
-		                                        			<li class="tab"><span>요금</span></li>
-		                                        			<li class="tab"><span>예약상태</span></li>
-		                                        			<li><div class="col-sm-4"><input type="radio" name="bb" class="aaa"/></div></li>
-		                                        		</ul>
-		                                        		<ul>
-		                                        			<li class="tab"><span>항공권</span></li>
-		                                        			<li class="tab"><span>여정시간</span></li>
-		                                        			<li class="tab"><span>잔여석</span></li>
-		                                        			<li class="tab"><span>요금</span></li>
-		                                        			<li class="tab"><span>예약상태</span></li>
+		                                        			<li class="tab"><span>아시아나</span></li>
+		                                        			<li class="tab"><span>14:00 - 15:10</span></li>
+		                                        			<li class="tab"><span>특가석 6석</span></li>
+		                                        			<li class="tab"><span>98,400원</span></li>
+		                                        			<li class="tab"><span>예약가능</span></li>
 		                                        			<li><div class="col-sm-4"><input type="radio" name="bb" class="aaa"/></div></li>
 		                                        		</ul>
 		                                        		<ul>
@@ -543,50 +573,50 @@
                                     	</div>
                                     	<div class="form-group"></div>
                                     	<div class="col-sm-12">
-											<div class="row">
+											<div class="row" id="pop">
 												<div class="proerty-th">
 													<div class="col-sm-6 col-md-3 p0">
 														<div class="box-two proerty-item">
 															<div class="item-thumb">
-																<a href="#"><img src="assets/img/demo/property-1.jpg"></a>
+																<a href="#"><img src="assets/img/demo/Ibis_Paris_Tour_Eiffel.jpg"></a>
 															</div>
 															<div class="item-entry overflow">
 																<h5>
-																	<a href="#">Ibis Paris Tour Eiffel</a>
+																	<a href="#">Ibis Paris Tour  3성</a>
 																</h5>
 																<div class="dot-hr"></div>
 																<span class="pull-left"><b>파리 :</b>포르트 드 베르사유</span>
-																 <span class="proerty-price pull-right">33,333 $</span>
+																 <span class="proerty-price pull-right">110,333 $</span>
 															</div>
 														</div>
 													</div>
 													<div class="col-sm-6 col-md-3 p0">
 														<div class="box-two proerty-item">
 															<div class="item-thumb">
-																<a href="#"><img src="assets/img/demo/property-2.jpg"></a>
+																<a href="#"><img src="assets/img/demo/Hotel_Chavanel.jpg"></a>
 															</div>
 															<div class="item-entry overflow">
 																<h5>
-																	<a href="#">Hotel Chavanel</a>
+																	<a href="#">Hotel Chavanel 3성</a>
 																</h5>
 																<div class="dot-hr"></div>
 																<span class="pull-left"><b>파리 :</b> 샹젤리제 </span> <span
-																	class="proerty-price pull-right">$ 300,000</span>
+																	class="proerty-price pull-right">$ 379,000</span>
 															</div>
 														</div>
 													</div>
 													<div class="col-sm-6 col-md-3 p0">
 														<div class="box-two proerty-item">
 															<div class="item-thumb">
-																<a href="#"><img src="assets/img/demo/property-3.jpg"></a>
+																<a href="#"><img src="assets/img/demo/Pullman_Paris_Tour_Eiffel.jpg"></a>
 															</div>
 															<div class="item-entry overflow">
 																<h5>
-																	<a href="#">Super nice villa </a>
+																	<a href="#">Pullman Paris  3성</a>
 																</h5>
 																<div class="dot-hr"></div>
-																<span class="pull-left"><b>Area :</b> 120m </span> 
-																<span class="proerty-price pull-right">$ 300,000</span>
+																<span class="pull-left"><b>파리 :</b>포르트 드 베르사유</span> 
+																<span class="proerty-price pull-right">$ 226,000</span>
 																<div style="display: none;">
 																	
 																</div>
@@ -596,15 +626,15 @@
 													<div class="col-sm-6 col-md-3 p0">
 														<div class="box-two proerty-item">
 															<div class="item-thumb">
-																<a href="#"><img src="assets/img/demo/property-4.jpg"></a>
+																<a href="#"><img src="assets/img/demo/Hotel_de_Nell.jpg"></a>
 															</div>
 															<div class="item-entry overflow">
 																<h5>
-																	<a href="#">Super nice villa </a>
+																	<a href="#">Hotel de Nell  5성</a>
 																</h5>
 																<div class="dot-hr"></div>
-																<span class="pull-left"><b>Area :</b> 120m </span> <span
-																	class="proerty-price pull-right">$ 300,000</span>
+																<span class="pull-left"><b>파리 :</b> 포브르그 몽마르트 </span> <span
+																	class="proerty-price pull-right">$ 350,000</span>
 															</div>
 														</div>
 													</div>
@@ -636,7 +666,12 @@
 												<label>높은 가격순</label>
 												<input type="radio" name="bb" class="aaa"/>
                                     		</div>
-                                    		<div class="col-sm-4"></div>
+											<div class="col-sm-12" style="text-align: center;">
+												<span class="d">06월 14일</span>
+												<span class="d" style="margin-left: 20px">06월 15일</span>
+												<span class="d" style="margin-left: 20px">06월 16일</span>
+												<span class="d" style="margin-left: 20px">06월 17일</span>
+											</div>
                                         </div>
                                         <div class="col-sm-12">
                                         <div class="form-group"></div>
@@ -645,60 +680,60 @@
 													<div class="col-sm-6 col-md-3 p0">
 														<div class="box-two proerty-item">
 															<div class="item-thumb">
-																<a href="#"><img src="assets/img/property-1/property1.jpg"></a>
+																<a href="#"><img src="assets/img/demo/Louvre.jpg"></a>
 															</div>
 															<div class="item-entry overflow">
 																<h5>
-																	<a href="#">Super nice villa </a>
+																	<a href="#">루브르 박물관</a>
 																</h5>
 																<div class="dot-hr"></div>
-																<span class="pull-left"><b>Area :</b> 120m </span>
-																 <span class="proerty-price pull-right">33,333 $</span>
+																<span class="pull-left"><b>선택 :</b> <input type="checkbox" name="louvre" /> </span>
+																 <span class="proerty-price pull-right">15 $</span>
 															</div>
 														</div>
 													</div>
 													<div class="col-sm-6 col-md-3 p0">
 														<div class="box-two proerty-item">
 															<div class="item-thumb">
-																<a href="#"><img src="assets/img/property-1/property2.jpg"></a>
+																<a href="#"><img src="assets/img/demo/Orsay.jpg"></a>
 															</div>
 															<div class="item-entry overflow">
 																<h5>
-																	<a href="#">Super nice villa </a>
+																	<a href="#">오르세 미술관 </a>
 																</h5>
 																<div class="dot-hr"></div>
-																<span class="pull-left"><b>Area :</b> 120m </span>
-																 <span class="proerty-price pull-right">33,333 $</span>
+																<span class="pull-left"><b>선택 :</b> <input type="checkbox" name="orsay" /> </span>
+																 <span class="proerty-price pull-right"> 2.5$</span>
 															</div>
 														</div>
 													</div>
 													<div class="col-sm-6 col-md-3 p0">
 														<div class="box-two proerty-item">
 															<div class="item-thumb">
-																<a href="#"><img src="assets/img/property-1/property3.jpg"></a>
+																<a href="#"><img src="assets/img/demo/Versailles.jpg"></a>
 															</div>
 															<div class="item-entry overflow">
 																<h5>
-																	<a href="#">Super nice villa </a>
+																	<a href="#">베르사유 궁전 </a>
 																</h5>
 																<div class="dot-hr"></div>
-																<span class="pull-left"><b>Area :</b> 120m </span>
-																 <span class="proerty-price pull-right">33,333 $</span>
+																<span class="pull-left"><b>선택 :</b> <input type="checkbox" name="bersau" /> </span>
+																 <span class="proerty-price pull-right"> 4$</span>
 															</div>
 														</div>
 													</div>
 													<div class="col-sm-6 col-md-3 p0">
 														<div class="box-two proerty-item">
 															<div class="item-thumb">
-																<a href="#"><img src="assets/img/property-1/property4.jpg"></a>
+																<a href="#"><img src="assets/img/demo/Auvers.jpg"></a>
 															</div>
 															<div class="item-entry overflow">
 																<h5>
-																	<a href="#">Super nice villa </a>
+																	<a href="#">고흐마을 </a>
 																</h5>
 																<div class="dot-hr"></div>
-																<span class="pull-left"><b>Area :</b> 120m </span>
-																 <span class="proerty-price pull-right">33,333 $</span>
+																<span class="pull-left"><b>선택 :</b> <input type="checkbox" name="auvers" /> </span>
+																 <span class="proerty-price pull-right"> 33$</span>
 															</div>
 														</div>
 													</div>
@@ -749,19 +784,80 @@
                 </div>
             </div>
         </div>
+   		<div class="col-sm-12 detailpop">
+			<div class="col-sm-4">
+				<a href="#"><img src="assets/img/demo/property-1.jpg"></a>
+			</div>
+			<div class="col-sm-8">
+				<span>호텔명</span>
+				<hr>
+				<span>주소 : 제주특별자치도 서귀포시 칠십리로91번길 12</span><br>
+				<span>전화 : 064-763-0773</span><br>
+				<span>등급 : 3성급</span><br>
+				<span>홈페이지 : www.hotelcombin.com</span><br>
+			</div>
+			<div class="col-sm-12"><span>아래에 원하시는 객식을 선택하세요</span></div>
+			<div class="col-sm-12">
+				<ul class="detail">
+					<li class="roomType"><span>객식타입</span></li>
+					<li class="ok"><span>06/14</span></li>
+					<li class="ok"><span>선택</span></li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<ul class="room">
+					<li class="roomType"><span>도미토리 6베드 여성전용(조식불포함)</span></li>
+					<li class="ok"><span>9,091원</span></li>
+					<li class="ok">가능<input type="radio" name="bb" class="aaa"/></li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<ul class="room">
+					<li class="roomType"><span>비즈니스(No View)(조식불포함)</span></li>
+					<li class="ok"><span>44,629원</span></li>
+					<li class="ok">가능<input type="radio" name="bb" class="aaa"/></li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<ul class="room">
+					<li class="roomType"><span>스탠다드 발코니(No View)(조식불포함)</span></li>
+					<li class="ok"><span>40,497원</span></li>
+					<li class="ok">가능<input type="radio" name="bb" class="aaa"/></li>
+				</ul>
+			</div>
+			<div class="col-sm-12" style="margin-top: 30px">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-6">
+					<span>선택한 객식 : 스탠다드 발코니(No View)(조식불포함)</span>
+				</div>
+				<div class="col-sm-2">
+					<span>가격: 40,497원</span>
+				</div>
+				<div class="col-sm-2">
+					<a href="#" id="selectHotel" class="btn-primary">선택</a>
+				</div>
+			</div>
+		</div>
 <script>
+	$(".col-sm-12.detailpop").hide();
 	$("input[name='finish']").click(function () {
 		alert("클릭딤");
 	})
 	console.log($(".item-thumb > a").html());
 	console.dir($(".item-thumb").length);
+	var $div = $(".col-sm-12.detailpop");
 	$(".item-thumb").click(function () {
-		console.log($(this).html());
-		$(this).toggle(function () {
-			
-		}, function () {
-			
-		})
+		$("#pop").hide();
+		$("#pop").after($div);
+		$div.show();
+	})
+	$("#selectHotel").click(function () {
+		$div.hide();
+		$("#pop").show();
+	})
+	$(".d").click(function (){
+		$(".d").removeClass("bold");
+		$(this).addClass("bold");
 	})
 </script>
 
