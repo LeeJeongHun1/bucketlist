@@ -58,6 +58,8 @@
                                 <div class="form-group">
                                     <label for="name">Name</label>
                                     <input type="text" class="form-control" id="name">
+                                    <label for="name">Age</label>
+                                    <input type="text" class="form-control" id="age">
                                 </div>
                                 <div class="form-group">
                                     <label for="email">Email</label>

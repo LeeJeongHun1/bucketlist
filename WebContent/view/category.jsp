@@ -93,6 +93,7 @@
 									<a href="property-1.html">[NO.1 베스트셀러] 서유럽 3/4/5개국 핵심일주 10일</a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								<span class="proerty-price pull-right">2,389,000원~</span>
 							</div>
 						</div>
@@ -109,6 +110,7 @@
 									<a href="property-2.html">[쉼표in유럽]오스트리아/체코 2 국 8일~9일 </a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								 <span
 									class="proerty-price pull-right">3,280,200원 ~</span>
 							</div>
@@ -127,6 +129,7 @@
 									<a href="property-3.html">[스테디셀러] 서유럽 3/4/5개국 핵심일주 9일</a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								<span class="proerty-price pull-right">2,706,600원~</span>
 							</div>
 						</div>
@@ -144,6 +147,7 @@
 									<a href="property-1.html">[NO.1 베스트셀러] 서유럽 3/4/5개국 핵심일주 10일</a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								<span class="proerty-price pull-right">2,408,800원~</span>
 							</div>
 						</div>
@@ -170,6 +174,7 @@
 									<a href="property-1.html">[카오락] 나만 알고 싶은 휴양지♡</a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								<span class="proerty-price pull-right">968,400원 ~</span>
 							</div>
 						</div>
@@ -186,6 +191,7 @@
 									<a href="property-2.html">[ADPZ03] 발리 [6성급 THE 물리아]</a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								<span class="proerty-price pull-right">2,995,000원 ~</span>
 							</div>
 						</div>
@@ -203,6 +209,7 @@
 									<a href="property-3.html">[태국왕실의 휴양지] 후아힌 허니문 </a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								<span class="proerty-price pull-right">1,584,600원 ~</span>
 							</div>
 						</div>
@@ -220,6 +227,7 @@
 									<a href="property-1.html">◆스리랑카 + 인도 [레(라다크)] 또는 인도 [남부]</a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								<span class="proerty-price pull-right">2,351,600원 ~</span>
 							</div>
 						</div>
@@ -247,6 +255,7 @@
 									<a href="property-1.html">챔피언스리그 패키지</a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								<span class="proerty-price pull-right">2,000,000원~</span>
 							</div>
 						</div>
@@ -263,6 +272,7 @@
 									<a href="property-2.html">프리미어리그 패키지</a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								<span class="proerty-price pull-right">1,750,000원</span>
 							</div>
 						</div>
@@ -280,6 +290,7 @@
 									<a href="property-3.html">프리메라리가 패키지</a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								<span class="proerty-price pull-right">2,560,000원~</span>
 							</div>
 						</div>
@@ -297,6 +308,7 @@
 									<a href="property-1.html">분데스리가 패키지</a>
 								</h5>
 								<div class="dot-hr"></div>
+								<button style="padding: 2px 14px;" class="navbar-btn nav-button wow bounceInRight login animated" onclick=" window.open('register.jsp')" data-wow-delay="0.45s" style="visibility: visible; animation-delay: 0.45s; animation-name: bounceInRight;">상세보기</button>
 								<span class="proerty-price pull-right">1,680,000원~</span>
 							</div>
 						</div>
