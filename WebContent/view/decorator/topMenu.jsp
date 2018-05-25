@@ -20,7 +20,7 @@
                         <button class="navbar-btn nav-button wow bounceInRight login" onclick=" window.open('register.jsp')" data-wow-delay="0.45s">Login</button>
                         <button class="navbar-btn nav-button wow fadeInRight" onclick=" window.open('userUpdate.jsp')" data-wow-delay="0.48s">MyPage</button>
                     </div>
-                    <ul class="main-nav nav navbar-nav navbar-right">
+                    <ul class="main-nav nav navbar-nav navbar-right" style="margin-right: 0;">
                      <!--    <li class="dropdown ymm-sw " data-wow-delay="0.1s">
                             <a href="index.html" class="dropdown-toggle active" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Home <b class="caret"></b></a>
                             <ul class="dropdown-menu navbar-nav">
@@ -46,7 +46,7 @@
                             <form action="${pageContext.request.contextPath}/view/properties.jsp" class=" form-inline">
                              <!--    <button class="btn  toggle-btn" type="button"><i class="fa fa-bars"></i></button> -->
 
-                                <div class="form-group" style="width:550px;">
+                                <div class="form-group" style="width:475px;">
                                     <input type="text" class="form-control" placeholder="Key word">
                                 </div>
 <!--                                 <div class="form-group">                                   
@@ -218,8 +218,11 @@
                         </div>
                     
                     </li>
-                    <li class="dropdown yamm-fw" data-wow-delay="0.4s">
-                            <a href="submit-property.jsp" class="dropdown-toggle">My Package</a>
+                       <li class="dropdown yamm-fw" data-wow-delay="0.4s">
+                            <a href="category.jsp" class="dropdown-toggle"  style="padding:18px;">테마여행</a>
+                        </li>
+                    <li class="dropdown yamm-fw" data-wow-delay="0.4s" >
+                            <a href="submit-property.jsp" class="dropdown-toggle"  style="padding:18px;" >My Package</a>
                         </li>
 
                        <!--  <li class="wow fadeInDown" data-wow-delay="0.5s"><a href="contact.html">Contact</a></li> -->

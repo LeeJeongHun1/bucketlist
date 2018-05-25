@@ -50,7 +50,7 @@
 						<h4 class="sub_title">기간별</h4>
 						<h4 class="c_title">출국</h4>
 								<div class="col-md-12">
-									<select id="lunchBegins" class="selectpicker"
+						<!-- 			<select id="lunchBegins" class="selectpicker"
 										data-live-search="true" data-live-search-style="begins"
 										title="출발 도시">
 										<option>New york, CA</option>
@@ -59,7 +59,7 @@
 										<option>Tokyo</option>
 										<option>Marraekch</option>
 										<option>kyoto , shibua</option>
-									</select>
+									</select> -->
 											<select id="lunchBegins" class="selectpicker"
 										data-live-search="true" data-live-search-style="begins"
 										title="도착 도시">
@@ -77,7 +77,7 @@
 								</div>
 								<h4 class="c_title">귀국</h4>
 								<div class="col-md-12">
-									<select id="lunchBegins" class="selectpicker"
+						<!-- 			<select id="lunchBegins" class="selectpicker"
 										data-live-search="true" data-live-search-style="begins"
 										title="출발 도시">
 										<option>New york, CA</option>
@@ -86,7 +86,7 @@
 										<option>Tokyo</option>
 										<option>Marraekch</option>
 										<option>kyoto , shibua</option>
-									</select>
+									</select> -->
 											<select id="lunchBegins" class="selectpicker"
 										data-live-search="true" data-live-search-style="begins"
 										title="도착 도시">
@@ -109,27 +109,27 @@
 								<div class="col-md-12">
 									<div class="col-sm-12">
 										<div class="checkbox">
-											<label> <input type="radio"> 30만원이하 </label>
+											<label> <input type="radio" name="pay"> 30만원이하 </label>
 										</div>
 									</div>
 									<div class="col-sm-12">
 										<div class="checkbox">
-											<label> <input type="radio"> 30 ~ 40만원 </label>
+											<label> <input type="radio"  name="pay"> 30 ~ 40만원 </label>
 										</div>
 									</div>
 									<div class="col-sm-12">
 										<div class="checkbox">
-											<label> <input type="radio"> 30 ~ 40만원 </label>
+											<label> <input type="radio"  name="pay"> 30 ~ 40만원 </label>
 										</div>
 									</div>
 									<div class="col-sm-12">
 										<div class="checkbox">
-											<label> <input type="radio"> 30 ~ 40만원 </label>
+											<label> <input type="radio" name="pay"> 30 ~ 40만원 </label>
 										</div>
 									</div>
 									<div class="col-sm-12">
 										<div class="checkbox">
-											<label> <input type="radio"> 30 ~ 40만원 </label>
+											<label> <input type="radio"  name="pay"> 30 ~ 40만원 </label>
 										</div>
 									</div>
 									
@@ -254,7 +254,7 @@
 								<div class="item-entry overflow">
 									<h5>
 										<a href="property-1.html"> 여행국가 <span>홍콩</span></a>
-									<button class="search_detail navbar-btn nav-button wow fadeInRight animated" onclick=" window.open('property-1.html')" data-wow-delay="0.48s" style="visibility: visible; animation-delay: 0.48s; animation-name: fadeInRight;"
+									<button class="search_detail navbar-btn nav-button wow fadeInRight animated" onclick=" window.open('property-2.jsp')" data-wow-delay="0.48s" style="visibility: visible; animation-delay: 0.48s; animation-name: fadeInRight;"
 									>상세보기</button>
 									</h5>
 									<div class="dot-hr"></div>
@@ -262,11 +262,7 @@
 										class="proerty-price pull-right">1,936,400원</span>
 									<p style="display: none;"><b>(특가/EVENT)</b>홍콩 핵심 관광 3일/4일『자유일정포함』
 #홍콩 2박3일 #홍콩 3박4일 #홍콩 패키지 # 자유일정 #홍콩 관광 #홍콩 #HONGKONG #홍콩여행</p>
-								<!-- 	<div class="property-icon">
-										<img src="assets/img/icon/bed.png">(5)| <img
-											src="assets/img/icon/shawer.png">(2)| <img
-											src="assets/img/icon/cars.png">(1)
-									</div> -->
+						
 								</div>
 
 
@@ -276,7 +272,7 @@
 						<div class="col-sm-6 col-md-3 p0">
 							<div class="box-two proerty-item">
 								<div class="item-thumb">
-									<a href="property-1.html"><img
+									<a href="property-2.jsp"><img
 										src="assets/img/demo/property-2.jpg"></a>
 								</div>
 

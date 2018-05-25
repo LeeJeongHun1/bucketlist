@@ -24,6 +24,11 @@ ul li {list-style: none !important;
 ul {padding:0;}
 .pBox {    position: relative;
     width: 89px;}
+.fixed {    position: fixed;
+    top:0px;
+    background: #f3f3f3;
+    z-index: 1;
+    height:534wpx;}
 </style>
 </head>
 <body>
@@ -299,7 +304,22 @@ ul {padding:0;}
                 </div>
             </div>
         </div> 
-
+		<script>
+		$(window).scroll(function(){
+			var w =$(window).height();
+			var sT = $(document).scrollTop();
+			var doc = $(document).height();
+			if(sT >= 730){
+				$(".products").addClass("fixed");
+		}else{
+			$(".products").removeClass("fixed");
+		}
+			});	
+	
+/* 		alert("현재창높이" +$(window).height());
+	   alert("스크롤위치" +$(document).scrollTop());
+	   alert("도큐멘트높이" + $(document).height()); */
+		</script>
         
 </body>
 </html>
