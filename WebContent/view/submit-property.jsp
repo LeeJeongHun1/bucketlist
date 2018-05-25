@@ -747,11 +747,14 @@
                                         <div class="row">  
                                             <div class="col-sm-12">
                                                 <div class="">
-                                                    <p>
-                                                    <label>
-                                                    	패키지 상세 내용 출력 화면
-                                                    </label>
-                                                    </p>
+                                                	<div class="col-sm-12">
+                                                		<div class="col-sm-2"> 
+                                                			<span>가는 항공편</span>
+                                                		</div>
+                                                		<div class="col-sm-10"> 
+                                                			<span>진에어 (06:05 - 07:20) 58,300원 </span>
+                                                		</div>
+                                                	</div>
                                                     <div class="checkbox">
                                                         <label>
                                                             <input type="checkbox" /> <strong>패키지 내용을 다시한번 확인하시고 체크 하세요</strong>
@@ -763,7 +766,6 @@
                                         </div>
                                     </div>
                                     <!--  End step 4 -->
-
                                 </div>
 
                                 <div class="wizard-footer">
@@ -786,7 +788,7 @@
         </div>
    		<div class="col-sm-12 detailpop">
 			<div class="col-sm-4">
-				<a href="#"><img src="assets/img/demo/property-1.jpg"></a>
+				<a href="#"><img src="assets/img/demo/Hotel_Chavanel.jpg"></a>
 			</div>
 			<div class="col-sm-8">
 				<span>호텔명</span>
