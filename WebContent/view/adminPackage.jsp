@@ -135,6 +135,7 @@
                 <th>제목</th>
                 <th>가격</th>
                 <th>등록일</th>
+                <th>상태</th>
                 <th>승인/삭제</th>
               </tr>
             </thead>
@@ -145,11 +146,13 @@
                 <td>Otto</td>
                 <td>Otto</td>
                 <td>Otto</td>
+                <td>대기 중</td>
                 <td><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;/&nbsp;<i class="glyphicon glyphicon-trash"></i></td>
               </tr>
               <tr>
                 <td>2</td>
                 <td>Jacob</td>
+                <td>Thornton</td>
                 <td>Thornton</td>
                 <td>Thornton</td>
                 <td>Thornton</td>
@@ -161,6 +164,7 @@
                 <td>the Bird</td>
                 <td>the Bird</td>
                 <td>the Bird</td>
+                <td>승인완료</td>
                 <td><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;/&nbsp;<i class="glyphicon glyphicon-trash"></i></td>
               </tr>
             </tbody>
