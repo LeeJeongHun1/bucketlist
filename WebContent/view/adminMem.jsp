@@ -94,10 +94,10 @@
 						<input type="text" class="form-control">
 					</div>
 					<div class="col-md-2">
-					나이:<input type="text" class="form-control" style="display: inline-block; width: 50%;">
+					나이:<input type="text" class="form-control" style="display: inline-block; width: 50%;">세
 					</div>
 					<div class="col-md-2">
-						<input type="text" class="form-control" style="display: inline-block; width: 50%;" >
+						~<input type="text" class="form-control" style="display: inline-block; width: 50%;" >세
 					</div>
 				</div>
 			    &nbsp;
