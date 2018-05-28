@@ -133,8 +133,8 @@
             <thead>
               <tr>
                 <th>#</th>
-                <th>카테고리</th>
-                <th>제목</th>
+                <th>테마</th>
+                <th>패키지명</th>
                 <th>가격</th>
                 <th>등록일</th>
                 <th>상태</th>
