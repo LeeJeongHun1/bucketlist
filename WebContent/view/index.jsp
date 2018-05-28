@@ -55,9 +55,9 @@ ul {padding:0;}
 		<ul>
 		<li>
 		<ul>
-		<li><a href="#">로그인</a></li>
-		<li><a href="#">회원가입</a></li>
-		<li><a href="#">예약확인/결제</a></li>
+		<li><a href="register.jsp">로그인</a></li>
+		<li><a href="register.jsp">회원가입</a></li>
+		<li><a href="payment.jsp">예약확인/결제</a></li>
 		</ul>
 		</li>
 		<li>
