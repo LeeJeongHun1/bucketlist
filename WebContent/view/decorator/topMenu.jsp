@@ -219,7 +219,7 @@
                     
                     </li>
                        <li class="dropdown yamm-fw" data-wow-delay="0.4s">
-                            <a href="category.jsp" class="dropdown-toggle"  style="padding:18px;">테마여행</a>
+                            <a href="category.jsp" class="dropdown-toggle"  style="padding:18px;">thematic tour</a>
                         </li>
                     <li class="dropdown yamm-fw" data-wow-delay="0.4s" >
                             <a href="submit-property.jsp" class="dropdown-toggle"  style="padding:18px;" >My Package</a>

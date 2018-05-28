@@ -100,7 +100,6 @@
 					      <td>2018/05/18</td>
 					      <td>2,000,000원</td>
 					      <td>
-							<button>취소</button>
 							<button>변경</button>
 						  </td>
 					    </tr>
