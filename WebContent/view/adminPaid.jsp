@@ -69,7 +69,7 @@
                 		<li><a href="adminMem.jsp">회원관리</a></li>
                 		<li><a href="adminMemPackage.jsp">회원 패키지관리</a></li>
                 		<li><a href="">결제내역조회</a></li>
-                		<li><a href="adminMemPackage.jsp">관리자 패키지관리</a></li>
+                		<li><a href="adminPackage.jsp">관리자 패키지관리</a></li>
                 	</ul>
                 </div>  
                 
@@ -133,21 +133,21 @@
             <tbody>
               <tr>
                 <td>1</td>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>Otto</td>
+                <td>P1</td>
+                <td>2010/11/11</td>
+                <td>-원</td>
               </tr>
               <tr>
                 <td>2</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>Thornton</td>
+                <td>P2</td>
+                <td>2010/11/11</td>
+                <td>-원</td>
               </tr>
               <tr>
                 <td>3</td>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>the Bird</td>
+                <td>P3</td>
+                <td>2010/11/11</td>
+                <td>-원</td>
               </tr>
             </tbody>
           </table>

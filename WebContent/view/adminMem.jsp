@@ -69,7 +69,7 @@
                 		<li><a href="">회원조회</a></li>
                 		<li><a href="adminMemPackage.jsp">회원 패키지관리</a></li>
                 		<li><a href="adminPaid.jsp">결제내역조회</a></li>
-                		<li><a href="adminMemPackage.jsp">관리자 패키지관리</a></li>
+                		<li><a href="adminPackage.jsp">관리자 패키지관리</a></li>
                 	</ul>
                 </div>  
                 

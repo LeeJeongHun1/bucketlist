@@ -131,7 +131,7 @@
               <tr>
                 <th>#</th>
                 <th>카테고리</th>
-                <th>제목</th>
+                <th>패키지명</th>
                 <th>가격</th>
                 <th>등록일</th>
                 <th>상태</th>
@@ -141,8 +141,8 @@
             <tbody>
               <tr>
                 <td>1</td>
-                <td>Mark</td>
-                <td>Otto</td>
+                <td>관광</td>
+                <td>P1</td>
                 <td>Otto</td>
                 <td>Otto</td>
                 <td>대기 중</td>
@@ -150,7 +150,7 @@
               </tr>
               <tr>
                 <td>2</td>
-                <td>Jacob</td>
+                <td>축구</td>
                 <td>Thornton</td>
                 <td>Thornton</td>
                 <td>Thornton</td>
@@ -159,7 +159,7 @@
               </tr>
               <tr>
                 <td>3</td>
-                <td>Larry</td>
+                <td>휴양지</td>
                 <td>the Bird</td>
                 <td>the Bird</td>
                 <td>the Bird</td>
