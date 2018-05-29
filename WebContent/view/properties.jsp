@@ -21,6 +21,11 @@
 .search_detail{background-color: #3F3F3F;
     padding: 8px 15px;}
 </style>
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+<script>
+  
+</script>
+
 </head>
 <body>
 
@@ -73,7 +78,7 @@
 								</div>
 			
 									<div class="col-md-12">
-									<input type="text" class="form-control" placeholder="2018-05-20">
+									<input type="text" id="datepicker" class="form-control" placeholder="2018-05-21">
 								</div>
 								<h4 class="c_title">귀국</h4>
 								<div class="col-md-12">
@@ -100,7 +105,24 @@
 								</div>
 			
 									<div class="col-md-12">
-									<input type="text" class="form-control" placeholder="2018-05-20">
+									<input type="text" id="alternate" class="form-control" placeholder="2018-05-22">
+									
+ 
+<!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script>
+$( function() {
+    $( "#datepicker" ).datepicker({
+      altField: "#alternate",
+      altFormat: "DD, d MM, yy"
+      dateFormat : 'yy년 mm월 dd일',
+      maxDate : 5,
+      minDate : -1
+    });
+  });
+</script> -->
+
+
 								</div>
 								
 							</div>

@@ -167,18 +167,9 @@
 										<span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">홍콩</span>
 									</li>
 
-									<li><span class="col-xs-6 col-sm-4 col-md-4 add-d-title">Waterfront</span>
-										<span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">Yes</span>
+									<li><span class="col-xs-6 col-sm-4 col-md-4 add-d-title">예약현황</span>
+										<span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">예약20명(좌석:30석(최소출발:성인8명))</span>
 									</li>
-
-									<li><span class="col-xs-6 col-sm-4 col-md-4 add-d-title">View</span>
-										<span class="col-xs-6 col-sm-8 col-md-8 add-d-entry">Intracoastal
-											View,Direct ew</span></li>
-
-									<li><span class="col-xs-6 col-sm-4 col-md-4 add-d-title">Waterfront
-											Description:</span> <span
-										class="col-xs-6 col-sm-8 col-md-8 add-d-entry">Intracoastal
-											Front,Ocean Access</span></li>
 
 								</ul>
 							</div>
