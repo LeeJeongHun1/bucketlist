@@ -139,25 +139,25 @@
                 <td>1</td>
                 <td>Mark</td>
                 <td>2010-11-20</td>
-                <td>Otto</td>
-                <td>Otto</td>
-                <td>Otto</td>
+                <td>2010-11-20</td>
+                <td>-원</td>
+                <td>A패키지</td>
               </tr>
               <tr>
                 <td>2</td>
                 <td>Jacob</td>
-                <td>Thornton</td>
-                <td>Thornton</td>
-                <td>Thornton</td>
-                <td>Thornton</td>
+                <td>2010-11-20</td>
+                <td>2010-11-20</td>
+                <td>-원</td>
+                <td>B패키지</td>
               </tr>
               <tr>
                 <td>3</td>
                 <td>Larry</td>
-                <td>the Bird</td>
-                <td>the Bird</td>
-                <td>the Bird</td>
-                <td>the Bird</td>
+                <td>2010-11-20</td>
+                <td>2010-11-20</td>
+                <td>-원</td>
+                <td>C패키지</td>
               </tr>
             </tbody>
           </table>
