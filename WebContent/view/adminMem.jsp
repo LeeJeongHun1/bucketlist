@@ -95,10 +95,10 @@
 						<input type="text" class="form-control">
 					</div>
 					<div class="col-md-2">
-					나이:<input type="text" class="form-control" style="display: inline-block; width: 50%;">세
+					출생연도:<input type="text" class="form-control" style="display: inline-block; width: 50%;">
 					</div>
 					<div class="col-md-2">
-						~<input type="text" class="form-control" style="display: inline-block; width: 50%;" >세
+						~<input type="text" class="form-control" style="display: inline-block; width: 50%;" >
 					</div>
 				</div>
 			    &nbsp;
@@ -129,7 +129,7 @@
                 <th>#</th>
                 <th>이름</th>
                 <th>가입일</th>
-                <th>나이</th>
+                <th>출생연도</th>
                 <th>결제내역</th>
                 <th>내가 만든 패키지</th>
               </tr>
@@ -138,7 +138,7 @@
               <tr>
                 <td>1</td>
                 <td>Mark</td>
-                <td>Otto</td>
+                <td>2010-11-20</td>
                 <td>Otto</td>
                 <td>Otto</td>
                 <td>Otto</td>

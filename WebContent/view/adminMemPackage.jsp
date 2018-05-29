@@ -144,28 +144,28 @@
             <tbody>
               <tr>
                 <td>1</td>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>Otto</td>
-                <td>Otto</td>
+                <td>축구</td>
+                <td>P-1</td>
+                <td>-원</td>
+                <td>2010/09/03</td>
                 <td>대기 중</td>
                 <td><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;/&nbsp;<i class="glyphicon glyphicon-trash"></i></td>
               </tr>
               <tr>
                 <td>2</td>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>Thornton</td>
-                <td>Thornton</td>
-                <td>Thornton</td>
+                <td>관광</td>
+                <td>P-2</td>
+                <td>-원</td>
+                <td>2010/09/01</td>
+                <td>승인완료</td>
                 <td><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;/&nbsp;<i class="glyphicon glyphicon-trash"></i></td>
               </tr>
               <tr>
                 <td>3</td>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>the Bird</td>
-                <td>the Bird</td>
+                <td>휴양지</td>
+                <td>P-3</td>
+                <td>-원</td>
+                <td>2011/02/01</td>
                 <td>승인완료</td>
                 <td><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;/&nbsp;<i class="glyphicon glyphicon-trash"></i></td>
               </tr>

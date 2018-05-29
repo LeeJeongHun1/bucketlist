@@ -67,7 +67,7 @@
                 <div class="col-md-2 mylist">
                 	<ul>
                 		<li><a href="adminMem.jsp">회원관리</a></li>
-                		<li><a href="adminMempackage">회원 패키지관리</a></li>
+                		<li><a href="adminMempackage.jsp">회원 패키지관리</a></li>
                 		<li><a href="adminPaid.jsp">결제내역조회</a></li>
                 		<li><a href="">관리자 패키지관리</a></li>
                 	</ul>
@@ -143,26 +143,26 @@
                 <td>1</td>
                 <td>관광</td>
                 <td>P1</td>
-                <td>Otto</td>
-                <td>Otto</td>
+                <td>-원</td>
+                <td>2010-11-10</td>
                 <td>대기 중</td>
                 <td><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;/&nbsp;<i class="glyphicon glyphicon-trash"></i></td>
               </tr>
               <tr>
                 <td>2</td>
                 <td>축구</td>
-                <td>Thornton</td>
-                <td>Thornton</td>
-                <td>Thornton</td>
-                <td>Thornton</td>
+                <td>P2</td>
+                <td>-원</td>
+                <td>2010-09-21</td>
+                <td>대기 중</td>
                 <td><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;/&nbsp;<i class="glyphicon glyphicon-trash"></i></td>
               </tr>
               <tr>
                 <td>3</td>
                 <td>휴양지</td>
-                <td>the Bird</td>
-                <td>the Bird</td>
-                <td>the Bird</td>
+                <td>P3</td>
+                <td>-원</td>
+                <td>2010-11-21</td>
                 <td>승인완료</td>
                 <td><i class="glyphicon glyphicon-thumbs-up"></i>&nbsp;/&nbsp;<i class="glyphicon glyphicon-trash"></i></td>
               </tr>
