@@ -66,7 +66,7 @@
 }
 
 .day {
-	width: 730px;
+	width:730px;
 	border-top: 3px solid;
 }
 
@@ -83,6 +83,9 @@
 	font-size: 14px;
 	color: #000;
 }
+.view {
+display:none;}
+.on { display:table-row;}
 </style>
 </head>
 <body>
@@ -214,8 +217,7 @@
 									<tr>
 										<td>인천 출발</td>
 										<td>소요시간 : <span>3시간</span></td>
-										<td>항공편 : OZ501</td>
-										<td></td>
+										<td colspan="2">항공편 : OZ501</td>
 									</tr>
 									<tr>
 										<td colspan="4"><h4>파리</h4></td>
@@ -227,7 +229,7 @@
 									<tr>
 										<th>식사</th>
 										<td>중식 : 기내식</td>
-										<td>석식 : 기내식</td>
+										<td colspan="2">석식 : 기내식</td>
 									</tr>
 
 									<tr class="daily">
@@ -243,9 +245,9 @@
 												</tr>
 												<tr style="height: 40px;">
 													<td class="col-md-4"><img
-														src="assets/img/property-video.jpg">이미지</td>
+														src="assets/img/property-video.jpg" style="width:150px; heihgt:150px;"></td>
 													<td class="col-md-4"><img
-														src="assets/img/property-video.jpg">이미지</td>
+														src="assets/img/property-video2.jpg"  style="width:150px; heihgt:150px;"></td>
 													<td class="col-md-4" style="height: 40px;">원래 루이 13세가
 														지은 사냥용 별장이었으나, 1662년 무렵 루이 14세의 명령으로 대정원을 착공하고1668년 건물 전체를
 														증축하여 외관을 가로축 부분이 앞으로 튀어나온 U자형 궁전으로 개축하였다. 1979년 유네스코에서
@@ -294,13 +296,13 @@
 											<td>홍길동</td>
 											<td>2018.04.20</td>
 										</tr>
-										<tr>
+										<tr class="review_list">
 											<td>타이틀</td>
 											<td>별점 : <span>4.5점</span></td>
 											<td>홍길동</td>
 											<td>2018.04.20</td>
 										</tr>
-										<tr>
+										<tr class="view" >
 											<td colspan="4">
 												<div>내용</div>
 											</td>
@@ -350,7 +352,7 @@
 											</tr>
 											<tr>
 												<td colspan="4">
-												<textarea rows="" cols="100"></textarea>
+												<textarea rows="3" cols="100" style="width:700px;"></textarea>
 												</td>
 											</tr>
 										</tbody>
@@ -360,6 +362,7 @@
 									</form>
 								</div>
 							</div>
+						
 							<!-- End video area  -->
 						</div>
 					</div>
@@ -496,6 +499,14 @@
 			});
 		});
 	</script>
+		<script type="text/javascript">
+							$(function(){
+								$(".review_list").on("click",function(){
+									$(".view").toggleClass("on");
+									
+								})
+							})
+							</script>
 
 </body>
 </html>
