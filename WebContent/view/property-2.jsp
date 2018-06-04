@@ -86,6 +86,8 @@
 .view {
 display:none;}
 .on { display:table-row;}
+.inReivew{display:none;}
+.onR{display:block;}
 </style>
 </head>
 <body>
@@ -284,6 +286,13 @@ display:none;}
 								<div class="roperty-social">
 
 									<table class="review">
+									<tr>
+									<th>제목</th>
+											<th>별점 </th>
+											<th>작성자</th>
+											<th>등록일</th>
+									
+									</tr>
 										<tr>
 											<td>내용입니다.</td>
 											<td>별점 : <span>4.5점</span></td>
@@ -309,7 +318,7 @@ display:none;}
 										</tr>
 									</table>
 									<form>
-									<table style=" position: relative;"cellpadding="0" cellspacing="0" border="0" width="100%"
+									<table class="inReivew" style="position: relative;"cellpadding="0" cellspacing="0" border="0" width="100%"
 										summary="등급,평점,출발일,항공,호텔">
 										<caption></caption>
 										<colgroup>
@@ -358,8 +367,8 @@ display:none;}
 										</tbody>
 									</table>
 
-									<button style="position:absolute;right:0;" class="navbar-btn nav-button wow fadeInRight animated animated">글쓰기</button>
 									</form>
+									<button id="review_write" style="position:absolute;right:0;" class="navbar-btn nav-button wow fadeInRight animated animated">글쓰기</button>
 								</div>
 							</div>
 						
@@ -505,8 +514,12 @@ display:none;}
 									$(".view").toggleClass("on");
 									
 								})
+								$("#review_write").on("click",function(){
+									$(".inReivew").toggleClass("onR");
+								})
 							})
 							</script>
+
 
 </body>
 </html>

@@ -59,11 +59,13 @@
 		style="background-color: #FFF;">
 		<div class="container">
 			<div class="row  pr0 padding-top-40 properties-page">
+				<!--  검색결과 -->
 				<div class="searchBorder">
 					<span class="searchColor">'미얀마'에 대한 <span
 						style="color: #f8931f;">총 5 건</span>의 여행상품 검색 결과가 있습니다.
 					</span>
 				</div>
+				<!--  검색창 -->
 				<div class="col-md-12 padding-bottom-40 large-search">
 					<div class="search-form wow pulse">
 						<form action="" class=" form-inline">
@@ -97,7 +99,7 @@
 									</select>
 								</div>
 
-							<h4 class="sub_title" style="margin-top: 100px;">기간별</h4>
+								<h4 class="sub_title" style="margin-top: 100px;">기간별</h4>
 								<div class="col-md-12">
 									<input type="text" id="datepicker" class="form-control"
 										placeholder="2018-05-21">
@@ -107,19 +109,7 @@
 										placeholder="2018-05-22">
 
 
-									<!-- <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-<script>
-$( function() {
-    $( "#datepicker" ).datepicker({
-      altField: "#alternate",
-      altFormat: "DD, d MM, yy"
-      dateFormat : 'yy년 mm월 dd일',
-      maxDate : 5,
-      minDate : -1
-    });
-  });
-</script> -->
+
 
 
 								</div>
@@ -216,16 +206,18 @@ $( function() {
 											</label>
 										</div>
 									</div>
-									
+
 									<!-- <!-- End of  -->
-<!-- 									<h4 class="c_title">기타</h4>
- -->									<div class="col-sm-12" style="margin-top:10px; margin-bottom: 10px;">
-									<input type="text" class="form-control" placeholder="Key word">
-								<!-- 		<div class="checkbox">
+									<!-- 									<h4 class="c_title">기타</h4>
+ -->
+									<div class="col-sm-12"
+										style="margin-top: 10px; margin-bottom: 10px;">
+										<input type="text" class="form-control" placeholder="Key word">
+										<!-- 		<div class="checkbox">
 											<label> <input type="checkbox">전체검색
 											</label>
 										</div> -->
-									</div> 
+									</div>
 									<div class="col-sm-12">
 
 										<button class="btn search-btn" type="submit"
@@ -237,6 +229,7 @@ $( function() {
 					</div>
 				</div>
 
+				<!-- 검색결과 -->
 				<div class="col-md-12  clear">
 					<div class="col-xs-10 page-subheader sorting pl0">
 						<ul class="sort-by-list">
@@ -595,5 +588,13 @@ $( function() {
 			</div>
 		</div>
 	</div>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script>
+		$(function() {
+			$("#datepicker").datepicker();
+			$("#alternate").datepicker();
+			
+		});
+	</script>
 </body>
 </html>
